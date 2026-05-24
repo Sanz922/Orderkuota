@@ -7,7 +7,7 @@ const axios = require('axios');
 const multer = require('multer');
 
 const app = express();
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 4000;
 
 const upload = multer();
 
@@ -35,11 +35,11 @@ global.fetchJson = async (url, options = {}) => {
 };
 
 const settings = {
-  name: "Skyzopedia Api's",
-  description: "Skyzopedia Api is a simple and lightweight REST API built with Express.js",
-  apiSettings: { creator: "Skyzopedia", apikey: ["key1", "key2", "123"] },
-  linkWhatsapp: "https://whatsapp.com/channel/0029Vb7HGkP7j6g5lLi0JY0f",
-  linkYoutube: "https://www.youtube.com/@skyzopedia-0xf"
+  name: "Orderkuota Api's",
+  description: "Orderkuota Api is a simple and lightweight REST API built with Express.js",
+  apiSettings: { creator: "Sanzxcode", apikey: ["sanz", "ork", "123"] },
+  linkWhatsapp: "https://",
+  linkYoutube: "https://www.youtube.com/"
 };
 
 global.apikey = settings.apiSettings.apikey;
